@@ -45,7 +45,6 @@ const streamerData = [
     }
 ]
 
-document.querySelectorAll('.simplebar-content button[data-a-target^="soulli12"]:not([style="display: none;"])')
 function deleteFromIconSelector(streamer) {
     const nav = document.querySelector(`.emote-picker__nav-scroll-container button[data-a-target="category-ref-` + streamer.name + `" i]`)
     if (nav) {
