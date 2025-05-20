@@ -31,4 +31,4 @@ A simple js script to hide blocked streamers from your twitch emotes picker.
         }
     ]
   ```
-  - that's it ! it should hide all
+  - that's it ! it should hide all unwanted streamers from your emotes picker !
