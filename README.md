@@ -4,7 +4,7 @@ A simple js script to hide blocked streamers from your twitch emotes picker.
 
 ## How to use:
 
-- Install a browser extension (e.g. (https://www.tampermonkey.net/)) and add main.js script to it [One click Install](https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js)
+- Install a browser extension (e.g. (https://www.tampermonkey.net/)) and add main.user.js script to it [One click Install](https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.user.js)
 - In the script add the name and icon prefix in the streamerData array as follow
 
   ```js
