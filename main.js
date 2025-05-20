@@ -1,21 +1,21 @@
+// ==UserScript==
+// @name Streamer Emote Picker Remover
+// @namespace twitch script
+// @version 1.0
+// @description Remove Streamer Emote Picker
+// @Author Bloubill
+// @AuthorUrl https://github.com/Bloubill
+// @homepageURL https://github.com/Bloubill
+// @supportURL https://github.com/Bloubill/issues
+// @downloadURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
+// @updateURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
+// @match *://www.twitch.tv/*
+// @license GPL-3.0 License
+// @grant unsafeWindow
+// @run-at document-idle
+// ==/UserScript==
+
 /**
- * ==UserScript==
- * @name Streamer Emote Picker Remover
- * @namespace twitch script
- * @version 1.0
- * @description Remove Streamer Emote Picker
- * @Author Bloubill
- * @AuthorUrl https://github.com/Bloubill
- * @homepageURL https://github.com/Bloubill
- * @supportURL https://github.com/Bloubill/issues
- * @downloadURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
- * @updateURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
- * @match *://www.twitch.tv/*
- * @license GPL-3.0 License
- * @grant unsafeWindow
- * @run-at document-idle
- * ==/UserScript==
- * 
  * How to use:
  * Install a browser extension (e.g. https://www.tampermonkey.net/) and add this script to it
  * In streamerData add the name and icon prefix as follow 
