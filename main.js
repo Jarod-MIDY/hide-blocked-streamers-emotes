@@ -1,16 +1,18 @@
 // ==UserScript==
 // @name Streamer Emote Picker Remover
 // @namespace twitch script
-// @version 1.0
+// @author Bloubill
 // @description Remove Streamer Emote Picker
-// @Author Bloubill
-// @AuthorUrl https://github.com/Bloubill
+// @copyright https://github.com/Bloubill
+// @license GPL-3.0 License
+// @version 1.0
+
 // @homepageURL https://github.com/Bloubill
 // @supportURL https://github.com/Bloubill/issues
 // @downloadURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
 // @updateURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
+
 // @match *://www.twitch.tv/*
-// @license GPL-3.0 License
 // @grant unsafeWindow
 // @run-at document-idle
 // ==/UserScript==
