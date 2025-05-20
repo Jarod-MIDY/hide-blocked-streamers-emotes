@@ -9,8 +9,8 @@
 
 // @homepageURL https://github.com/Jarod-MIDY
 // @supportURL https://github.com/Jarod-MIDY/issues
-// @downloadURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
-// @updateURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.js
+// @downloadURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.user.js
+// @updateURL https://raw.githubusercontent.com/Jarod-MIDY/hide-blocked-streamers-emotes/refs/heads/main/main.user.js
 
 // @match *://www.twitch.tv/*
 // @grant unsafeWindow
