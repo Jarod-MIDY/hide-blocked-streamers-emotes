@@ -89,12 +89,9 @@ const callback = function(mutationsList) {
     }
 };
 
-const config = {childList: true};
-
 const observer = new MutationObserver(callback);
-setTimeout(fn => {
+setTimeout(() => {
     const chat = document.querySelector('.chat-input')
-    console.log(chat)
-    observer.observe(chat, config);
+    observer.observe(chat, {childList: true});
 }, 1500)
 
