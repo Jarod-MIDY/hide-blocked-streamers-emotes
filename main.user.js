@@ -59,7 +59,6 @@ function deleteFromIconSelector(streamer) {
 }
 
 function deleteFromSearch(streamer) {
-    style="display: none;"
     let emoteButtons = [
         ...(document.querySelectorAll('div:has(>.emote-button button[data-a-target^="'+ streamer.iconPrefix +'"]):not([style="display: none;"])')??[]),
         ...(document.querySelectorAll('.simplebar-content button[data-a-target^="'+ streamer.iconPrefix +'"]:not([style="display: none;"])')??[])
@@ -93,9 +92,9 @@ const callback = function(mutationsList) {
 const config = {childList: true};
 
 const observer = new MutationObserver(callback);
-
-document.querySelector(`button[data-a-target="emote-picker-button"]`).addEventListener('click', () => {
+setTimeout(fn => {
     const chat = document.querySelector('.chat-input')
+    console.log(chat)
     observer.observe(chat, config);
-})
+}, 1500)
 
