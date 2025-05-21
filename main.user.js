@@ -71,7 +71,8 @@ function deleteFromSearch(streamer) {
 
 }
 
-const callback = function(mutationsList) {
+const observer = new MutationObserver(mutationsList => {
+    console.log('prout');
     let hasChildListMutations = false;
     for (const mutation of mutationsList) {
         if (mutation.type === 'childList') {
@@ -81,17 +82,12 @@ const callback = function(mutationsList) {
     }
     if (hasChildListMutations) {
         streamerData.forEach(streamer => {
-            let foundStreamer = deleteFromIconSelector(streamer)
-            if (!foundStreamer) {
+            if (!deleteFromIconSelector(streamer)) {
                 deleteFromSearch(streamer)
             }
         })
     }
-};
-
-const observer = new MutationObserver(callback);
+});
 setTimeout(() => {
-    const chat = document.querySelector('.chat-input')
-    observer.observe(chat, {childList: true});
-}, 1500)
-
+    observer.observe(document.querySelector('.chat-input'), {childList: true, subtree: true });
+}, 2000)
